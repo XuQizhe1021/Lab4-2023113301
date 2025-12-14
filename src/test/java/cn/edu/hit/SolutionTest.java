@@ -50,7 +50,7 @@ public class SolutionTest {
         List<Integer> result = solution.findMinHeightTrees(n, edges);
 
         assertEquals(1, result.size(), "单节点树应该返回一个根节点");
-        assertEquals(999, result.get(0), "单节点树的根节点应该是0");
+        assertEquals(0, result.get(0), "单节点树的根节点应该是0");
     }
 
     /**
